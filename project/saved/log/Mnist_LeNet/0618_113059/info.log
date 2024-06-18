@@ -1,0 +1,54 @@
+2024-06-18 11:31:22,109 - train - INFO - MnistModel(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+)
+Trainable parameters: 21840
+2024-06-18 11:31:22,115 - trainer - WARNING - Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2024-06-18 11:31:37,003 - trainer - INFO -     epoch          : 1
+2024-06-18 11:31:37,004 - trainer - INFO -     loss           : 0.6759979005955972
+2024-06-18 11:31:37,004 - trainer - INFO -     accuracy       : 0.7838180221733243
+2024-06-18 11:31:37,004 - trainer - INFO -     top_k_acc      : 0.9260748138117807
+2024-06-18 11:31:37,004 - trainer - INFO -     val_loss       : 0.12125914805430046
+2024-06-18 11:31:37,004 - trainer - INFO -     val_accuracy   : 0.9607475303951368
+2024-06-18 11:31:37,004 - trainer - INFO -     val_top_k_acc  : 0.9958206686930091
+2024-06-18 11:31:37,007 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0618_113059/checkpoint-epoch1.pth ...
+2024-06-18 11:31:37,009 - trainer - INFO - Saving current best: model_best.pth ...
+2024-06-18 11:31:50,630 - trainer - INFO -     epoch          : 2
+2024-06-18 11:31:50,631 - trainer - INFO -     loss           : 0.2932906562541898
+2024-06-18 11:31:50,631 - trainer - INFO -     accuracy       : 0.9125788126269465
+2024-06-18 11:31:50,631 - trainer - INFO -     top_k_acc      : 0.9854223087339201
+2024-06-18 11:31:50,631 - trainer - INFO -     val_loss       : 0.08631950830842586
+2024-06-18 11:31:50,631 - trainer - INFO -     val_accuracy   : 0.9742828647416414
+2024-06-18 11:31:50,631 - trainer - INFO -     val_top_k_acc  : 0.9973404255319149
+2024-06-18 11:31:50,633 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0618_113059/checkpoint-epoch2.pth ...
+2024-06-18 11:31:50,634 - trainer - INFO - Saving current best: model_best.pth ...
+2024-06-18 11:32:03,995 - trainer - INFO -     epoch          : 3
+2024-06-18 11:32:03,996 - trainer - INFO -     loss           : 0.23964910629377545
+2024-06-18 11:32:03,996 - trainer - INFO -     accuracy       : 0.9298144465132024
+2024-06-18 11:32:03,996 - trainer - INFO -     top_k_acc      : 0.9889794558226134
+2024-06-18 11:32:03,996 - trainer - INFO -     val_loss       : 0.06729347884972045
+2024-06-18 11:32:03,996 - trainer - INFO -     val_accuracy   : 0.9786759118541033
+2024-06-18 11:32:03,996 - trainer - INFO -     val_top_k_acc  : 0.9981715425531915
+2024-06-18 11:32:03,998 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0618_113059/checkpoint-epoch3.pth ...
+2024-06-18 11:32:03,999 - trainer - INFO - Saving current best: model_best.pth ...
+2024-06-18 11:32:17,506 - trainer - INFO -     epoch          : 4
+2024-06-18 11:32:17,507 - trainer - INFO -     loss           : 0.20936921200057343
+2024-06-18 11:32:17,507 - trainer - INFO -     accuracy       : 0.9391503046716316
+2024-06-18 11:32:17,507 - trainer - INFO -     top_k_acc      : 0.9908519168923494
+2024-06-18 11:32:17,507 - trainer - INFO -     val_loss       : 0.06388453929189672
+2024-06-18 11:32:17,507 - trainer - INFO -     val_accuracy   : 0.9784621960486323
+2024-06-18 11:32:17,507 - trainer - INFO -     val_top_k_acc  : 0.9988364361702128
+2024-06-18 11:32:17,510 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0618_113059/checkpoint-epoch4.pth ...
+2024-06-18 11:32:17,511 - trainer - INFO - Saving current best: model_best.pth ...
+2024-06-18 11:32:30,680 - trainer - INFO -     epoch          : 5
+2024-06-18 11:32:30,681 - trainer - INFO -     loss           : 0.1922383978256682
+2024-06-18 11:32:30,681 - trainer - INFO -     accuracy       : 0.9441990732904536
+2024-06-18 11:32:30,681 - trainer - INFO -     top_k_acc      : 0.9924837085308057
+2024-06-18 11:32:30,681 - trainer - INFO -     val_loss       : 0.05503559641619312
+2024-06-18 11:32:30,681 - trainer - INFO -     val_accuracy   : 0.9825227963525837
+2024-06-18 11:32:30,681 - trainer - INFO -     val_top_k_acc  : 0.9985039893617021
+2024-06-18 11:32:30,683 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0618_113059/checkpoint-epoch5.pth ...
+2024-06-18 11:32:30,684 - trainer - INFO - Saving current best: model_best.pth ...
